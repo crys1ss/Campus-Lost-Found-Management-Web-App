@@ -1,0 +1,1054 @@
+SVKM’s NMIMS
+Mukesh Patel School of Technology Management & Engineering
+Computer Engineering Department
+Program: - Semester:
+Course: Software Engineering
+Experiment No.01
+PART A
+(PART A: TO BE REFFERED BY STUDENTS)
+A.1 Aim:
+Conduct the literature survey to identify the case study and possible nature of problem. Shortlist at least five case study and shortlist one of them. Identify the scope of the problem selected.
+Also perform the following tasks.
+1.Identify the end user of the system
+2.Identify the functional requirements of the project
+3.Identify the non-functional requirements of the project
+4.Identify the feasibility of the project
+5.Finalize one problem out of five selected
+6.Frame the final problem statement.
+7.List down the list of user requirements, system requirements.
+8.Identify the ambiguities, inconsistencies, incompleteness from the requirements gathered.
+9.List down the development plan for the selected problem statement.
+Finalize the problem statement and conduct the requirement gathering
+A.2 Prerequisite: - C, C++, Software Development Life Cycle /Literature survey
+A.3 Outcome:
+After successful completion of this experiment students will be able to
+1.Identify ambiguities, inconsistencies and incompleteness from a requirements specification
+2.Identify and state functional requirements
+3.Identify and state non-functional requirements
+4.Frame the problem statement for the MINI project
+A.4 Theory:
+Requirements identification is the first step of any software development project. Until the requirements of a client have been clearly identified, and verified, no other task (design, coding, testing) could begin. Usually business analysts having domain knowledge on the subject matter discuss with clients and decide what features are to be implemented.
+In this experiment we will learn how to identify functional and non-functional requirements from a given problem statement. Functional and non-functional requirements are the primary components of a Software Requirements Specification.
+Requirements
+Somerville defines "requirement" as a specification of what should be implemented. Requirements specify how the target system should behave. It specifies what to do, but not how to do. Requirements engineering refers to the process of understanding what a customer expects from the system to be developed, and to document them in a standard and easily readable and understandable format. This documentation will serve as reference for the subsequent design, implementation and verification of the system.
+It is necessary and important that before we start planning, design and implementation of the software system for our client, we are clear about it's requirements. If we don't have a clear vision of what is to be developed and what all features are expected, there would be serious problems, and customer dissatisfaction as well.
+Characteristics of Requirements
+Requirements gathered for any new system to be developed should exhibit the following three properties:
+Unambiguity: There should not be any ambiguity what a system to be developed should do. For example, consider you are developing a web application for your client. The client requires that enough number of people should be able to access the application simultaneously. What's the "enough number of people"? That could mean 10 to you, but, perhaps, 100 to the client. There's an ambiguity.
+Consistency: To illustrate this, consider the automation of a nuclear plant. Suppose one of the clients say that if the radiation level inside the plant exceeds R1, all reactors should be shut down. However, another person from the client side suggests that the threshold radiation level should be R2. Thus, there is an inconsistency between the two end users regarding what they consider as threshold level of radiation.
+Completeness: A particular requirement for a system should specify what the system should do and also what it should not. For example, consider a software to be developed for ATM. If a customer enters an amount greater than the maximum permissible withdrawal amount, the ATM should display an error message, and it should not dispense any cash.
+Categorization of Requirements
+Based on the target audience or subject matter, requirements can be classified into different types, as stated below:
+User requirements: They are written in natural language so that both customers can verify their requirements have been correctly identified
+System requirements: They are written involving technical terms and/or specifications, and are meant for the development or testing teams
+Requirements can be classified into two groups based on what they describe:
+Functional requirements (FRs): These describe the functionality of a system -- how a system should react to a particular set of inputs and what should be the corresponding output.
+Non-functional requirements (NFRs): They are not directly related what functionalities are expected from the system. However, NFRs could typically define how the system should behave under certain situations. For example, a NFR could say that the system should work with 128MB RAM. Under such condition, a NFR could be more critical than a FR.
+Non-functional requirements could be further classified into different types like:
+Product requirements: For example, a specification that the web application should use only plain HTML, and no frames
+Performance requirements: For example, the system should remain available 24x7
+Organizational requirements: The development process should comply to SEI CMM level 4
+Functional Requirements: Identifying Functional Requirements
+Given a problem statement, the functional requirements could be identified by focusing on the following points:
+Identify the high level functional requirements simply from the conceptual understanding of the problem. For example, a Library Management System, apart from anything else, should be able to issue and return books.
+Identify the cases where an end user gets some meaningful work done by using the system. For example, in a digital library a user might use the "Search Book" functionality to obtain information about the books of his interest.
+If we consider the system as a black box, there would be some inputs to it, and some output in return. This black box defines the functionalities of the system. For example, to search for a book, user gives title of the book as input and get the book details and location as the output.
+Any high level requirement identified could have different sub-requirements. For example, "Issue Book" module could behave differently for different class of users, or for a particular user who has issued the book thrice consecutively.
+A.5 Task to be completed in PART B
+A.5.1. Task 1:
+Every student needs to follow following steps and record the findings in appropriate section of PART B
+1.Conduct the literature survey
+2.Shortlist at least 5 domain of project and possible nature of problem.
+3.Identify the scope of the problems selected
+4.Identify the end user of the solution
+5.Identify the functional requirements of the project
+6.Identify the non-functional requirements of the project
+7.Identify the feasibility of the project
+8.Finalize one problem out of five selected
+9.Frame the final problem statement.
+10.List down the list of user requirements, system requirements.
+11.Identify the ambiguities, inconsistencies, incompleteness from the requirements gathered.
+12.List down the development plan for the selected problem statements
+PART B
+(PART B: TO BE COMPLETED BY STUDENTS)
+(Students must submit the soft copy as per following segments within two hours of the practical. The soft copy must be uploaded on the Blackboard or emailed to the concerned lab in charge faculties at the end of the practical in case the there is no Black board access available)
+Roll No. N022, N026, N038
+Name: Tanay Dekate, Jivitesh Dutt, Gatha Jain
+Program:  MBA Tech CE
+Division: D
+Batch: D1
+Date of Experiment:
+Date of Submission: 22/7/26
+Grade :
+B.1 Tasks given in PART A to be completed here
+(Students must write the answers of the task(s) given in the PART A )
+1. Conduct the Literature Survey
+Almost every college campus loses a steady stream of personal belongings every day: ID cards, mobile phones, chargers, calculators, water bottles, umbrellas, laptops, keys and wallets left behind in classrooms, laboratories, the library, the canteen, the gymnasium and hostel common areas. In most institutions the recovery process is still manual. Found items are handed to a security desk and written into a paper register, while students who have lost something either visit the desk repeatedly, put up notices on boards, or post messages in class WhatsApp or Telegram groups. These channels are fragmented, time-bound and unsearchable, and a large share of items are never reunited with their owners and are eventually disposed of.
+A review of existing approaches shows three broad categories. (1) Manual lost-property registers maintained by security or administration offices: simple and trusted, but they offer no search, no notification and no audit trail, and ownership is usually verified informally. (2) Social-media and messaging groups: fast to post, but messages scroll out of view within hours, there is no structured description, no matching and no verification, and posting photographs of valuable items can encourage false claims. (3) Dedicated lost-and-found software used by airports, transit operators, hotels and some universities: these provide structured item records, categories, photo upload, keyword search, automated matching of lost and found reports and claim workflows, but commercial products are generally priced and designed for large organisations and are not tailored to campus roles such as students, faculty, hostel wardens and security staff.
+Academic work on lost-and-found systems commonly proposes a web or mobile portal backed by a central database, with item matching based on category, colour, brand, location and date, and in some cases image similarity. Common gaps observed in these proposals are weak ownership verification (anyone who sees a photo can claim the item), no custody tracking once an item is deposited with security, and no record of the final hand-over.
+This survey led to the identification of the Campus Lost & Found Management System, a centralized campus platform where students and staff can report lost and found items, search the catalogue, receive automatic potential-match alerts, submit ownership claims that are verified by security personnel, and track every item until it is formally returned and a return record is generated.
+2. Shortlist at Least 5 Domains and Possible Nature of Problems
+Sr. No.
+Domain
+Nature of Problem
+1
+Campus Canteen Pre-Ordering System
+Long queues and food wastage during short lunch breaks
+2
+Library Seat Reservation System
+Students cannot find free reading-room seats during exam periods
+3
+Hostel Complaint Management System
+Maintenance complaints are lost, delayed or not tracked
+4
+Event and Club Management Portal
+Scattered event information and manual registrations for club events
+5
+Campus Lost & Found Management System
+Lost belongings are rarely recovered because reports are scattered, unsearchable and ownership is not verified
+3. Identify the Scope of Problems Selected
+Campus Canteen Pre-Ordering System
+Online menu display
+Order placement and pre-payment
+Pick-up time slot management
+Library Seat Reservation System
+Real-time seat availability
+Seat reservation and check-in
+Auto-release of unused seats
+Hostel Complaint Management System
+Complaint registration
+Assignment to maintenance staff
+Complaint status tracking
+Event and Club Management Portal
+Event publishing
+Participant registration
+Attendance and certificate generation
+Campus Lost & Found Management System
+User registration and authentication (students, faculty/staff, security personnel, administrator)
+Reporting of lost items and found items with category, description, location, date and photo
+Keyword and filter-based search of the lost and found catalogue
+Automated matching of lost reports against found reports and potential-match alerts
+Ownership claim submission with proof, and claim verification by security personnel
+Storage and custody tracking of found items at the security desk
+Marking items as returned and generating a return record
+Notifications (e-mail / SMS / in-app) and lost/found history
+Administration: users, item categories, reports, claims, monitoring and statistics
+4. Identify the End User of the Solution
+Primary Users
+Students (day scholars and hostel residents)
+Faculty members
+Non-teaching / administrative staff
+Security personnel managing the lost-and-found desk
+Secondary Users
+Campus administrator (system administration and reports)
+Hostel wardens and department offices that collect items left in their premises
+Campus management (monthly recovery statistics)
+External System
+Notification service (e-mail / SMS gateway) used to deliver alerts
+5. Identify Functional Requirements of the Project
+FR-1 User Registration
+The system shall allow students and faculty/staff to create an account using their institutional e-mail ID.
+FR-2 User Login
+The system shall authenticate registered users and grant role-based access (Campus User, Security Personnel, Administrator).
+FR-3 Password Recovery
+The system shall allow users to reset forgotten passwords through a link sent to the registered e-mail ID.
+FR-4 User Profile Management
+The system shall allow users to update and manage profile information such as name, phone number and department.
+FR-5 Report Lost Item
+The system shall allow a user to report a lost item with title, category, description, colour, last-seen location, date and optional photo.
+FR-6 Report Found Item
+The system shall allow a user to report a found item with category, description, found location, date and photo, and record where the item was deposited.
+FR-7 Search Items
+The system shall allow users to search lost and found items by keyword and filter by category, location and date.
+FR-8 View Item Details
+The system shall display the details of a selected item, hiding identifying details that are needed for ownership verification.
+FR-9 Automated Matching and Potential Matches
+The system shall compare every new report with opposite reports (lost vs found), compute a match score and list potential matches to the owner.
+FR-10 Submit Ownership Claim
+The system shall allow a user to submit an ownership claim on a found item with proof of ownership.
+FR-11 Track Claim Status
+The system shall display the current status of each claim (Pending, Under Review, Approved, Rejected).
+FR-12 Verify Found Item and Manage Storage
+The system shall allow security personnel to verify found-item reports, record the storage location and manage items in custody.
+FR-13 Review and Approve / Reject Claim
+The system shall allow security personnel to review claims, verify proof of ownership and approve or reject each claim with remarks.
+FR-14 Mark Item as Returned
+The system shall allow security personnel to mark an item as returned after hand-over and generate a return record.
+FR-15 Notifications
+The system shall send notifications for potential matches, claim decisions and return confirmation through the notification service.
+FR-16 Lost / Found History
+The system shall maintain and display each user's history of lost reports, found reports and claims.
+FR-17 Administration
+The system shall allow the administrator to manage users, item categories, item reports and claims.
+FR-18 Monitoring and Report Generation
+The system shall allow the administrator to monitor system activity and generate periodic reports (items reported, matched, returned, unclaimed).
+FR-19 Logout
+The system shall allow users to securely logout.
+6. Identify Non-Functional Requirements
+Performance
+Search results and pages should load within 3 seconds under normal load.
+Availability
+System should be available 24×7 with at least 99% uptime.
+Usability
+A first-time user should be able to report an item in under 3 minutes without help.
+Reliability
+No report, claim or return record should be lost once saved.
+Security
+Passwords and personal data should be protected; only verified owners can collect items.
+Scalability
+System should support growth in users, campuses and item records.
+Maintainability
+Modular code so that new categories, rules and features can be added easily.
+Portability
+System should work on modern web browsers on desktop and mobile.
+Accessibility
+Interface should be usable across screen sizes and with assistive technologies.
+Data Integrity
+Item status, claim status and return records should always remain consistent.
+7. Identify the Feasibility of the Project
+Technical Feasibility
+Feasible
+Built using HTML, CSS and JavaScript for the front end, a Node.js / PHP back end and a MySQL database.
+E-mail through an SMTP service and SMS through a standard SMS gateway API.
+Does not require specialized hardware; can be deployed on the college server or standard web hosting.
+Economic Feasibility
+Feasible
+Open-source technologies reduce development cost.
+Minimal infrastructure cost; runs on existing campus servers and network.
+Reduces staff time spent on the manual register and on repeated desk enquiries.
+Operational Feasibility
+Feasible
+Students and staff are already familiar with web portals and campus e-mail.
+Fits the existing practice of depositing found items at the security desk.
+Security staff need only short training to verify and update items.
+Schedule Feasibility
+Feasible
+Project can be completed within academic semester timelines (see development plan).
+8. Finalize One Problem Out of Five Selected
+Selected Problem
+Campus Lost & Found Management System
+Reason:
+Solves a real, recurring problem faced by every student and staff member on campus.
+Suitable for implementation using web technologies within a semester.
+Involves several actors (users, security, administrator, external notification service), giving good scope for software engineering analysis and UML modeling.
+Includes interesting logic such as automated matching and a verification workflow.
+9. Frame the Final Problem Statement
+Problem Statement
+Students and staff on campus frequently lose personal belongings, while items that are found are handed to the security desk and recorded in a paper register or posted on messaging groups. Because this information is scattered and unsearchable, owners rarely find out that their item has been recovered, security staff cannot reliably verify who the true owner is, and many items remain unclaimed.
+The objective of this project is to develop a web-based Campus Lost & Found Management System that allows students and faculty/staff to report lost and found items, search the catalogue, receive automated potential-match notifications, and submit ownership claims; enables security personnel to verify found items, manage storage, approve or reject claims and mark items as returned with a return record; and allows the administrator to manage users, categories and claims and to generate reports.
+10. List of User Requirements and System Requirements
+User Requirements
+UR-1
+User should be able to register an account using the institutional e-mail ID.
+UR-2
+User should be able to login securely.
+UR-3
+User should be able to recover a forgotten password.
+UR-4
+User should be able to report a lost item with a description and photo.
+UR-5
+User should be able to report a found item and note where it was deposited.
+UR-6
+User should be able to search lost and found items using keywords and filters.
+UR-7
+User should be notified when a potential match for their lost item is found.
+UR-8
+User should be able to submit an ownership claim with proof.
+UR-9
+User should be able to track the status of the claim.
+UR-10
+Security personnel should be able to verify items and claims and record the return of an item.
+UR-11
+Administrator should be able to manage users, categories and claims and view reports.
+UR-12
+User should be able to view the history of reports and claims and manage profile information.
+System Requirements
+SR-1
+System shall store user account information with passwords hashed using bcrypt.
+SR-2
+System shall validate login credentials and enforce role-based access control.
+SR-3
+System shall validate mandatory fields (category, description, location, date) of every item report.
+SR-4
+System shall store lost-item and found-item records with status values (Open, Matched, Claimed, Returned, Closed).
+SR-5
+System shall execute the matching engine whenever a new lost or found report is stored.
+SR-6
+System shall compute a match score using category, colour, brand, location and date proximity.
+SR-7
+System shall maintain claim records and their status (Pending, Under Review, Approved, Rejected).
+SR-8
+System shall send e-mail / SMS / in-app notifications through the notification service.
+SR-9
+System shall generate a return record containing claim, receiver and security officer details.
+SR-10
+System shall maintain item categories and storage locations.
+SR-11
+System shall log all status changes with user ID and timestamp for audit.
+SR-12
+System shall support responsive web interfaces on desktop and mobile browsers.
+11. Identify Ambiguities, Inconsistencies, and Incompleteness
+Ambiguities
+Requirement
+Ambiguity
+Matching should be quick
+Quick means how many seconds after a report is submitted?
+Show similar items as matches
+What makes two items "similar"? Which attributes and what minimum score?
+Claim must include valid proof
+What counts as valid proof (ID card, invoice, unlock code, unique mark)?
+User-friendly interface
+User-friendly is subjective
+Unclaimed items are disposed of after some time
+"Some time" is not defined (30 days? end of semester?)
+Inconsistencies
+Issue
+Description
+Claim verification authority
+Security staff expect to verify claims, while the administration office expects to approve high-value items
+Found item hand-over
+Some stakeholders expect finders to keep the item until claimed; security expects all found items to be deposited at the desk
+Visibility of item photos
+Students want full photos to recognise items; security wants identifying details hidden to prevent false claims
+Notification channel
+Students prefer in-app and SMS alerts, whereas staff prefer e-mail only
+Incompleteness
+Missing Information
+Exact matching algorithm and threshold score
+Retention period and disposal / donation policy for unclaimed items
+Procedure for high-value items (laptops, phones, ID cards) and handing over ID cards to the issuing office
+Handling of items found by visitors or outsiders who do not have campus accounts
+Integration details with the campus single sign-on and the SMS gateway
+Escalation process when two users claim the same item
+12. Development Plan for Selected Problem Statement
+Phase
+Activity
+Duration
+Phase 1
+Requirement Gathering & Literature Survey
+1 Week
+Phase 2
+Feasibility Study & Problem Analysis
+1 Week
+Phase 3
+Use Case Modeling
+1 Week
+Phase 4
+Activity Diagram Design
+1 Week
+Phase 5
+Class Diagram Design
+1 Week
+Phase 6
+Sequence Diagram Design
+1 Week
+Phase 7
+Frontend & Database Development (reporting, search, claims)
+2 Weeks
+Phase 8
+Matching Engine & Notification Module Development
+1 Week
+Phase 9
+Testing & Validation
+1 Week
+Phase 10
+Documentation & Final Deployment
+1 Week
+B.2 Observations and Learning:
+(Students must write the observations and learning based on their understanding built about the subject matter and inferences drawn)
+Through the requirement gathering process, the functional and non-functional requirements of the Campus Lost & Found Management System were identified and analyzed. It was observed that the same system is viewed very differently by students (quick reporting and alerts), security personnel (custody and proof of ownership) and the administrator (control and statistics), and that these views must be reconciled into one consistent set of requirements. This experiment helped in understanding how user requirements are transformed into system requirements and how ambiguities, inconsistencies, and incompleteness (for example, an undefined matching threshold or retention period) can affect software development if they are not resolved early.
+B.3 Conclusion:
+(Students must write the conclusive statements as per the attainment of individual outcomes listed above and learning/observation noted in section B.2)
+The objectives of the experiment were successfully achieved by identifying the project scope, end users, functional and non-functional requirements, feasibility, and the final problem statement for the Campus Lost & Found Management System. The ambiguities, inconsistencies and incomplete requirements were listed so that they can be clarified with stakeholders. The study provided a clear foundation for further software engineering activities such as NFR specification, UML modeling, system design, and implementation.
+B.4 Question of curiosity:
+1.Justify the statement, “ User requirements must be understood well before beginning the software development”
+Understanding user requirements beforehand ensures that the system developed meets user expectations and reduces costly rework later. The cost of fixing a requirement error grows sharply as a project moves from requirements to design, coding, testing and deployment. For example, if it is not understood early that security personnel must verify ownership before an item is released, the claim workflow, database design and notifications would all have to be rebuilt later. Clear requirements also give a basis for estimation, planning and acceptance testing.
+2.What is SRS? Download sample SRS format of any organization and prepare the relevant part of the same for this experiment
+Software Requirements Specification (SRS) is a document that formally describes the functional and non-functional requirements of a software system. It acts as an agreement between the client and the development team and is the reference for design, testing and maintenance. The relevant part of an SRS (following the IEEE 830 / ISO/IEC/IEEE 29148 outline) prepared for this experiment is given below:
+SRS Section
+Content for Campus Lost & Found Management System
+1.1 Purpose
+To specify the requirements of a web-based platform for reporting, matching, claiming and returning lost items on campus.
+1.2 Scope
+Covers user accounts, lost/found reporting, search, automated matching, claims, verification, returns, notifications and administration. Payment and physical storage hardware are out of scope.
+1.3 Definitions
+Lost report, found report, match score, claim, proof of ownership, return record, security desk.
+2.1 Product perspective
+A new stand-alone web application that uses an external e-mail / SMS notification service.
+2.2 User classes
+Student, Faculty/Staff (Campus Users), Security Personnel, Administrator.
+2.3 Constraints
+Institutional e-mail login, campus data-privacy policy, open-source technology stack.
+3.1 Functional requirements
+FR-1 to FR-19 listed in Section 5.
+3.2 Non-functional requirements
+Performance, availability, security, usability, etc. (detailed in Experiment 2).
+3.What is feasibility study? When is the feasibility study done?
+A feasibility study evaluates whether a project is practical and achievable in terms of technology, cost, operation and schedule (and, where relevant, legal aspects). It is conducted during the initial planning and requirement analysis phase, before significant design and development effort is committed, so that the project can be approved, modified or dropped early.
+4.Differentiate between functional requirements and nonfunctional requirements
+Functional requirements define what the system should do, whereas non-functional requirements define how well the system should perform. For example, "the system shall allow a student to submit an ownership claim" is functional, while "search results shall be displayed within 3 seconds" is non-functional. FRs are verified by functional testing of features; NFRs are verified by measuring quality attributes such as response time, uptime or security.
+*
+Experiment No. 2
+Topic: Agile Requirements Gathering with User Stories (For NON-Functional Requirement) Aim: To identify Nonfunctional requirement for any software development project.
+Learning Outcome: Study consists of learning the following concepts
+Identify non-functional requirements for the software to be designed in each context.
+Write effective User stories for the non-functional / Quality requirements of selected projects.
+Acceptance criteria and Definition of done.
+Incorporating Design decisions to achieve desired quality for software systems.
+Part A:
+Functional vs Non-Functional Requirements
+S. No
+Functional
+Non-Functional
+1
+Defines ‘What’ of the customer requirements
+Defines ‘How’ of the customer requirements
+2
+Elicited by business analysts, specified by the customer
+Defined by technical team like architects, developers etc
+3
+Documented as the requirements document by the business analyst
+Documented as the technical document by the team
+4
+Defines the functionality in the system
+Defines quality attribute in the system
+5
+Captured as a user story in agile
+Captured either as a story or part of acceptance criteria of a user story
+6
+Customer tests and validates the functionality as specified by them
+Customers cannot test these quality attributes, however, can experience while using the system
+7
+Customers find it easy to define these
+It is hard to define by the customer
+8
+Defines the product features
+Defines the product properties
+Non-Functional / Quality requirements for Software
+Usability. The higher the usability of software, the easier it is for users to work with it. There are several aspects of usability, including learnability for novices, efficiency of use for experts, and handling of errors.
+Efficiency. The more efficient software is, the less it uses of CPU-time, memory, disk space, network bandwidth and other resources. This is important to customers in order to reduce their costs of running the software, although with today’s powerful computers, CPU-time, memory and disk usage are less of a concern than in years gone by.
+Reliability. Software is more reliable if it has fewer failures. Since software engineers do not deliberately plan for their software to fail, reliability depends on the number and type of mistakes they make. Designers can improve reliability by ensuring the software is easy to implement and change, by testing it thoroughly, and by ensuring that if failures occur, the system can handle them or can recover easily.
+Maintainability. This is the ease with which you can change the software. The more difficult it is to make a change, the lower the maintainability. Software engineers can design highly maintainable software by anticipating future changes and adding flexibility. Software that is more maintainable can result in reduced costs for both developers and customers.
+Reusability. A software component is reusable if it can be used in several different systems with little or no modification. High reusability can reduce the long-term costs faced by the development team.
+How to Elicit Non-Functional Requirements?
+When the business analysts elicit requirements from the stakeholders on the functional aspects of the system, they also should understand from the stakeholder what attributes the system should provide in order to meet their business goals. For example, the website must be able to load within 0.5 seconds. Eliciting a non-functional requirement is more challenging than the functional requirement, as the stakeholders/users are good at articulating the functional requirements well; while they may not be aware of, or good at explicitly stating non-functional requirements. Business analysts will have to get these requirements from stakeholders by asking the right questions. NFRs are implicit by nature, meaning that people assume them to exist without being asked.
+Some of the questions to be prompted that may help the business analyst to ask stakeholders how they want their system to function include the following aspects:
+Performance – speed of the system e.g., response time, throughput etc
+Availability – what is the impact if the system is not available for the customer?
+Security – ensuring unauthorized access to the system
+Data Retention - how long should the data be retained in the system for reference? This could be a regulation from the government/country.
+Usability – easy access for the customer/user while using the system
+Stability – code/system stability when dynamic changes apply due to business needs
+Compliance – understanding compliance needs by local laws/regulations
+Reliability – probability of system performing without failure
+Recoverability – ability of the system to recover from failure
+Serviceability – ease of system service when necessary
+Data integrity – accuracy and correctness of data maintained in the system
+Scalability – ability of the system to scale when more resources are added
+Capacity – how much the system can store information
+Accessibility - how easily people with the widest range of capabilities can use the system.
+Non-Functional Requirements in Agile
+A common challenge for an Agile team is dealing with capturing non-functional requirements in a user story. The non-functional requirements can be written as a user story and made available in the product backlog or sprint backlog. For example, “As an ecommerce website user, I want the website to be available for 99.99999%, so that I purchase products whenever I feel like”
+NFR can also be included as Acceptance Criteria in a user story.
+For example, for the following user story, “As an ecommerce website user, I want to search for products, so that I can purchase them”. NFR as acceptance criteria would be “application responds to search request within 5 seconds from the time request is received”.
+Examples of non-functional requirements:
+As a customer, I want to be able to run your product on all versions of Windows from Windows 95 on.
+As the CTO, I want the system to use our existing orders database rather than create a new one, so that we don't have one more database to maintain.
+As a user, I want the site to be available 99.999 percent of the time I try to access it, so that I don't get frustrated and find another site to use.
+As someone who speaks a Latin-based language, I might want to run your software someday.
+As a user, I want the driving directions to be the best 90 percent of the time, and reasonable 99 percent of the time.
+Few More examples:
+Performance – funds transfer transaction should not take more than 0.5 seconds
+Availability – the system should be available for the users to use the system anytime of the week they need
+Security – payroll data is not visible to all the employees in the organization. Only the authorized personnel should have access to the data
+Data Retention – all healthcare data should reside in the system for 7 years. Older data can be archived and should be accessible when required
+Usability – the system navigation is easy for the end user and provides a seamless journey while accessing the system
+Stability – the code/system is stable when new changes are applied due to dynamic business needs
+Compliance – HIPAA compliance should be adhered when dealing with patients’ data in USA
+Reliability – website users should be able to access the system 99% of the time without any failure
+Recoverability – In case of any major failures, the system should be restored within 48 hours
+Serviceability – the system should be serviceable immediately when there is a failure
+Data integrity – the system should not allow phone number to be entered in the data field
+Capacity – the system should be able to store 1 million records of basic customer information
+Scalability – the system should be scalable to support unlimited growth of the employees
+Accessibility - The system shall be accessible to people with disabilities in accordance with the Americans with Disabilities Act
+Confidentiality – The system shall not display the bank account number in full. It should display only the last 4 digits of the account number while others can be masked
+Efficiency – The interface between the system and user should not take more than 2 seconds
+Portability – The system shall be developed for both windows and Mac operating systems platforms
+For performance requirements and many other nonfunctional requirements(NFR's), one can use constraints and stories.
+Usually create a story to document the NFR and
+Define story tests for it.
+Then, add the story tests as a "constraint."
+A constraint is something that all implemented stories(features and functionality) must comply with.
+SAMPLE:
+Step 1: Identify and quantify the constraint, put it in terms that your users and business stakeholders will understand, and put it into one or more stories as Story Tests (aka Acceptance Tests).
+Story Title: System response time
+Story Test #1: Test that the system responds to all non search requests within 1 second of receiving the request
+Story Test #2: Test that the system responds to all search requests within 10 seconds of receiving the request
+Some things to keep in mind:
+If you cannot quantify the story in concrete terms, this should be a bad smell that usually indicates a requirement that is too vague to be implemented. Vague NFR's have the same problems that vague functional requirements do: It is hard to answer the question "How will I know when this story is correctly done?"
+Be sure not to specify a technical solution or implementation in the story, because stories are about "The What" ("What the user wants") and they are not about "The How" ("How this is implemented").
+Plan, estimate, split(if necessary), and implement this story like all other user stories, as part of the Product Backlog(Scrum).
+Once this story is complete, the entire system will be in compliance with this particular constraint.
+If your constraint is not system-wide or far reaching:
+Just add it as a story test for that story. But again, specify the requirement, not the implementation, in terms the business stakeholders will understand.
+The decision to create a constraint or not will rest on whether the constraint should be considered in at least several future stories(or system wide). If it will apply to several future stories, then create a constraint. If it won't apply to several future stories, then just add the NFR as a storytest to the stories that it applies to or create a separate story to comply with the NFR in the small part of the system that requires it.
+Step 2: Add the NFR related Story Tests to your list of constraints (and to your Definition of Done if you're doing Scrum)
+Publish your list of constraints (and/or DoD) somewhere that is highly visible. Even if you keep your constraints electronically, print them out in large print and post them somewhere on your Scrum board or in your team area.
+Constraints
+• Test that the system responds to all non search requests within 1 second of receiving the request.
+• Test that the system responds to all search requests within 10 seconds of receiving the request.
+• Test that the system logs a user out after 10 seconds of inactivity and redirects their browser to the home page.
+• Test that any update to a person's payment information (anywhere in the system) is logged to the payment_preferences log, along with the following information:
+o IP Address of logged in person
+o Old preference value, new preference value
+o Date/time of change
+• Test that any time a person's credit card number is shown in the application, that only the last 4 digits display.
+Add the constraints to your Definition of Done.
+Definition of Done
+• All stories must comply with all of the story constraints <link to constraints page on wiki>.
+• All code must be peer reviewed within 4 hours of checkin.
+• If a change is made to the web services interface, the change must be documented on the official web services api wiki page <link to api on wiki>.
+• All code must have automated testing that is consistent with the "Automated Testing Guidelines" <link to guidelines on wiki>
+• Any change in of functionality that is visible in the GUI must be at least tested manually (automated tests also acceptable) against the integration environment before making the functionality available for a QA review.
+Part B:
+Create Document of NFR for your selected Software application.
+NFR Document – Campus Lost & Found Management System
+1. Performance
+NFR-PER-1: The system shall load any page within 3 seconds on a standard campus Wi-Fi connection (10 Mbps).
+NFR-PER-2: The system shall display search results within 3 seconds for a catalogue of up to 50,000 item records.
+NFR-PER-3: The matching engine shall generate potential matches within 5 seconds after a lost or found report is saved.
+NFR-PER-4: The system shall support at least 300 concurrent users without the 95th-percentile response time exceeding 5 seconds.
+2. Availability
+NFR-AVL-1: The system shall be available 24×7 with a monthly uptime of at least 99% (excluding scheduled maintenance).
+NFR-AVL-2: Scheduled maintenance shall be performed between 1:00 AM and 5:00 AM and announced at least 24 hours in advance.
+3. Security
+NFR-SEC-1: User passwords shall be stored only as salted bcrypt hashes; plain-text passwords shall never be stored or logged.
+NFR-SEC-2: All communication shall use HTTPS (TLS 1.2 or higher).
+NFR-SEC-3: Role-based access control shall ensure that only Security Personnel can approve / reject claims or mark items as returned, and only the Administrator can manage users and categories.
+NFR-SEC-4: An account shall be locked for 15 minutes after 5 consecutive failed login attempts.
+NFR-SEC-5: A user session shall expire after 15 minutes of inactivity.
+4. Reliability
+NFR-REL-1: No saved report, claim or return record shall be lost; every write shall be committed as a database transaction.
+NFR-REL-2: If the notification service is unavailable, notifications shall be queued and retried at least 3 times within 30 minutes.
+NFR-REL-3: The system shall have a mean time between failures (MTBF) of at least 720 hours during the semester.
+5. Usability
+NFR-USE-1: A first-time user shall be able to submit a lost-item report in under 3 minutes without external assistance.
+NFR-USE-2: Every form shall show field-level validation messages, and every action shall give a success or error message within 1 second.
+NFR-USE-3: Any main feature (report, search, claim, history) shall be reachable within 3 clicks from the dashboard.
+6. Scalability
+NFR-SCA-1: The system shall scale to 20,000 registered users and 200,000 item records without redesign.
+NFR-SCA-2: The architecture shall allow adding another campus or new item categories through configuration only.
+7. Maintainability
+NFR-MNT-1: The code shall be modular, with separate modules for users, items, matching, claims and notifications.
+NFR-MNT-2: New item categories and matching rules shall be added without changing source code.
+NFR-MNT-3: Automated unit tests shall cover at least 70% of the business-logic code.
+8. Portability
+NFR-POR-1: The system shall operate on the latest two versions of Chrome, Edge, Firefox and Safari.
+NFR-POR-2: The interface shall be responsive on desktop, tablet and mobile screens from 360 px width upwards.
+9. Accessibility
+NFR-ACC-1: The interface shall meet WCAG 2.1 Level AA guidelines (contrast ratio of at least 4.5:1, keyboard navigation, alt text for images).
+NFR-ACC-2: Body text shall be at least 14 px and shall remain usable at 200% browser zoom.
+10. Data Integrity
+NFR-DIN-1: Item status shall change only through valid transitions (Open → Matched → Claimed → Returned / Closed).
+NFR-DIN-2: An item shall never have more than one Approved claim.
+NFR-DIN-3: Every status change shall be logged with user ID and timestamp in an audit log.
+11. Efficiency
+NFR-EFF-1: Uploaded photos shall be compressed to at most 500 KB before storage.
+NFR-EFF-2: Search and item list pages shall be paginated with 20 items per page to reduce data transfer.
+12. Confidentiality and Data Retention
+NFR-CON-1: Contact details of the finder or owner shall be visible only to Security Personnel and the Administrator.
+NFR-CON-2: Unique identifying marks entered for verification shall be hidden from public item listings.
+NFR-RET-1: Closed item records shall be retained for 1 academic year and then archived.
+13. Recoverability
+NFR-REC-1: The database shall be backed up automatically every 24 hours, and the system shall be restorable within 4 hours after a major failure.
+NFR User Stories
+Story 1 – Performance
+As a student who has lost an item, I want search results to appear within 3 seconds so that I can quickly check whether my item has been found.
+Acceptance Criteria:
+Search results for any keyword appear within 3 seconds for a catalogue of 50,000 records.
+Potential matches are generated within 5 seconds after a report is saved.
+Story 2 – Availability
+As a user, I want the Lost & Found portal to be available whenever I access it so that I can report or search for an item at any time, even late at night.
+Acceptance Criteria:
+System remains accessible 24×7 with at least 99% monthly uptime, except announced maintenance.
+Story 3 – Security
+As a registered user, I want my account and contact details to be protected so that my personal data remains secure.
+Acceptance Criteria:
+Only authenticated users can access protected pages.
+Unauthorized access attempts are denied and logged.
+An account is locked for 15 minutes after 5 failed login attempts.
+Story 4 – Security (ownership)
+As a security officer, I want identifying marks to be hidden from other users so that only the true owner can prove ownership.
+Acceptance Criteria:
+Unique marks and verification details are not visible on public item pages.
+Only Security Personnel can approve a claim and mark an item as returned.
+Story 5 – Usability
+As a first-time user, I want the interface to be easy to understand so that I can report a lost item without training.
+Acceptance Criteria:
+A new user completes a lost-item report in under 3 minutes without external help.
+Clear validation messages are shown for missing or invalid fields.
+Story 6 – Reliability
+As a claimant, I want to be informed of the claim decision even if the SMS or e-mail service is temporarily down so that I do not miss collecting my item.
+Acceptance Criteria:
+Failed notifications are queued and retried at least 3 times within 30 minutes.
+The in-app notification is always recorded, even if e-mail / SMS fails.
+Story 7 – Data Integrity
+As the administrator, I want every item to have at most one approved claim so that an item is never handed over to two people.
+Acceptance Criteria:
+The system rejects approval of a second claim on an item that already has an approved claim.
+Every status change is recorded in the audit log.
+Story 8 – Portability
+As a student, I want to use the portal on my mobile phone so that I can report an item immediately at the place where I lost it.
+Acceptance Criteria:
+All pages render correctly on screens from 360 px width on Chrome, Safari, Edge and Firefox.
+Constraints
+Test that the system responds to all non-search requests within 2 seconds and to all search requests within 3 seconds.
+Test that a user session expires after 15 minutes of inactivity and the browser is redirected to the login page.
+Test that every change of item or claim status is logged with user ID, old value, new value and timestamp.
+Test that finder / owner phone numbers are masked (only the last 4 digits displayed) for all roles except Security Personnel and Administrator.
+Test that uploaded photos larger than 500 KB are compressed before being stored.
+Definition of Done
+A feature (user story) of the Campus Lost & Found Management System will be considered complete when:
+All functional requirements of the story are implemented and the acceptance criteria are satisfied.
+The story complies with all the constraints listed above.
+Page and search response times remain within the specified limits in a load test with 300 concurrent users.
+Role-based access, input validation and password hashing are verified; security checks are completed.
+Code is peer reviewed and automated unit tests pass with at least 70% coverage of business logic.
+The user interface is tested on Chrome, Edge, Firefox and Safari, on desktop and mobile.
+Matching, claim and notification flows are tested end-to-end in the integration environment.
+No critical or high-severity defects remain open.
+Relevant documentation (user guide / API notes) is updated.
+EXPERIMENT - 3
+Aim:  To perform the user’s view analysis for the Campus Lost & Found Management System: Use case diagram.
+Theory:
+1)What is Scenario based modeling?
+2)How to list down the use cases and Actors in a use case diagram
+3)Guidelines for finding out the relationship between Use cases.
+Scenario-Based Modeling
+Makes use of use cases to capture the ways in which end-users will interact with the system
+UML requirements modeling begins with the creation of scenarios in the from of use cases, activity diagrams, and swim lane diagrams
+Developing Use Cases
+Use cases capture the interactions between actors (i.e. entities that consume or produce information)
+Begin by listing the activities performed by a single actor to accomplish a single function
+Continue this process for each actor and each system function
+Use-cases are written first in narrative form and then mapped to a template if more formality is required
+Each primary scenarios should be reviewed and refined to see if alternative interactions are possible
+Can the actor take some other action at this point?
+Is it possible that the actor will encounter an error condition at some point? If so, what?
+Is it possible that the actor will encounter some other behavior at some point? If so, what?
+Exceptions:
+Describe situations (failures or user choices) that cause the system to exhibit unusual behavior
+Brainstorming should be used to derive a reasonably complete set of exceptions for each use case
+Are there cases where a validation function occurs for the use case?
+Are there cases where a supporting function (actor) fails to respond appropriately?
+Can poor system performance result in unexpected or improper use actions?
+Handling exceptions may require the creation of additional use cases
+Procedure:
+1)Analyze the system to find out the various functionalities.
+2)List down the set of Use Cases and the various Actors in the system to be developed.
+3)Draw a Use Case diagram and draw the various associations between them.
+Output: A Use case diagram for the System.
+Step 1 and 2: Actors and Use Cases identified for the Campus Lost & Found Management System
+Actor
+Type
+Description
+Registered User
+Abstract (generalized) actor
+Any registered user; Login, Reset Password, Manage Profile and Logout are defined once here
+Campus User
+Primary actor (abstract)
+Generalization of Student and Faculty / Staff; reports, searches and claims items
+Student
+Primary actor
+Specializes Campus User
+Faculty / Staff
+Primary actor
+Specializes Campus User
+Security Personnel
+Primary actor
+Operates the lost-and-found desk; verifies items and claims and records returns
+Administrator
+Primary actor
+Manages users, categories, reports and claims; monitors the system
+Notification Service
+Secondary (external) actor
+E-mail / SMS gateway that delivers alerts
+Actor
+Use Cases
+Registered User (all roles)
+Login, Reset Password, Manage Profile, Logout
+Campus User (Student, Faculty / Staff)
+Register Account, Report Lost Item, Report Found Item, Search Items, View Potential Matches, Submit Ownership Claim, Track Claim Status, View Notifications, View Lost / Found History
+Security Personnel
+View Found Item Reports, Verify Found Item, Manage Storage / Collection, Review Claims, Approve / Reject Claim, Mark Item as Returned
+Administrator
+Manage Users, Manage Categories, Manage Item Reports, Manage Claims, Monitor System, Generate Reports
+Notification Service
+Send Notification
+(internal)
+Match Lost & Found Items, View Item Details, Send Notification
+Relationships between use cases
+Relationship
+Type
+Justification
+Report Lost Item → Match Lost & Found Items
+«include»
+Every new lost report is always matched against found reports
+Report Found Item → Match Lost & Found Items
+«include»
+Every new found report is always matched against open lost reports
+Match Lost & Found Items → Send Notification
+«include»
+A potential match always triggers an alert to the owner
+View Potential Matches → View Item Details
+«include»
+Viewing a match always shows the matched item’s details
+View Item Details → Search Items
+«extend»
+Optional: the user may open an item from the search results
+Reset Password → Login
+«extend»
+Optional: only when the user has forgotten the password (FR-3)
+Approve / Reject Claim → Send Notification
+«include»
+The claimant is always told the decision
+Mark Item as Returned → Send Notification
+«include»
+A return confirmation is always sent
+Student, Faculty / Staff → Campus User; Campus User, Security Personnel, Administrator → Registered User
+Generalization
+Common use cases are defined once and inherited
+Use Case Diagram – Campus Lost & Found Management System
+EXPERIMENT – 4
+Aim:  To create Activity Diagram for the Campus Lost & Found Management System
+Prerequisite:
+1.Basic understanding of functionality for the system to be designed
+Outcome: After successful completion of this experiment students will be able to
+1.Understand the various activities in the system to be developed.
+2.Identify the actors who would be performing these activities.
+Theory:
+1)What is Scenario based modeling?
+2)How to find out the set of activities in a activity diagram
+3)Guidelines for finding out the usage of various symbols in an activity diagram.
+Activity diagram is another important diagram in UML to describe dynamic aspects of the system.
+Activity diagram is basically a flow chart to represent the flow form one activity to another activity. The activity can be described as an operation of the system.
+So the control flow is drawn from one operation to another. This flow can be sequential, branched or concurrent. Activity diagrams deals with all type of flow control by using different elements like fork, join etc.
+Purpose:
+The basic purposes of activity diagrams are similar to the other four diagrams. It captures the dynamic behavior of the system. Other four diagrams are used to show the message flow from one object to another, but activity diagram is used to show message flow from one activity to another.
+Activity is a particular operation of the system. Activity diagrams are not only used for visualizing dynamic nature of a system, but they are also used to construct the executable system by using forward and reverse engineering techniques. The only missing thing in activity diagram is the message part.
+It does not show any message flow from one activity to another. Activity diagram is some time considered as the flow chart. Although the diagrams looks like a flow chart but it is not. It shows different flow like parallel, branched, concurrent and single.
+So the purposes can be described as:
+Draw the activity flow of a system.
+Describe the sequence from one activity to another.
+Describe the parallel, branched and concurrent flow of the system.
+How to draw Activity Diagram?
+Activity diagrams are mainly used as a flow chart consists of activities performed by the system. But activity diagram are not exactly a flow chart as they have some additional capabilities. These additional capabilities include branching, parallel flow, swimlane etc.
+Before drawing an activity diagram we must have a clear understanding about the elements used in activity diagram. The main element of an activity diagram is the activity itself. An activity is a function performed by the system. After identifying the activities we need to understand how they are associated with constraints and conditions.
+So before drawing an activity diagram we should identify the following elements:
+Activities
+Association
+Conditions
+Constraints
+Once the above mentioned parameters are identified we need to make a mental layout of the entire flow. This mental layout is then transformed into an activity diagram.
+The following is an example of an activity diagram for order management system. In the diagram four activities are identified which are associated with conditions. One important point should be clearly understood that an activity diagram cannot be exactly matched with the code. The activity diagram is made to understand the flow of activities and mainly used by the business users.
+The following diagram is drawn with the four main activities:
+Send order by the customer
+Receipt of the order
+Confirm order
+Dispatch order
+After receiving the order request condition checks are performed to check if it is normal or special order. After the type of order is identified dispatch activity is performed and that is marked as the termination of the process.
+Where to use Activity Diagrams?
+The basic usage of activity diagram is similar to other four UML diagrams. The specific usage is to model the control flow from one activity to another. This control flow does not include messages.
+The activity diagram is suitable for modeling the activity flow of the system. An application can have multiple systems. Activity diagram also captures these systems and describes flow from one system to another. This specific usage is not available in other diagrams. These systems can be database, external queues or any other system.
+Now we will look into the practical applications of the activity diagram. From the above discussion it is clear that an activity diagram is drawn from a very high level. So it gives high level view of a system. This high level view is mainly for business users or any other person who is not a technical person.
+This diagram is used to model the activities which are nothing but business requirements. So the diagram has more impact on business understanding rather implementation details.
+Following are the main usages of activity diagram:
+Modeling work flow by using activities.
+Modeling business requirements.
+High level understanding of the system's functionalities.
+Investigate business requirements at a later stage.
+Procedure:
+1)Analyze the system to find out the various activities.
+2)List down the set of activities and the various Actors in the system who would be performing those set of activities.
+3)Draw a Activity diagram showing all the activities.
+Output:    A Activity diagram for the System.
+Step 1 and 2: Activities and actors (swimlanes) identified
+Scenario modelled: Report Lost Item → Search / Match → Claim → Verification → Return
+Swimlane (Actor)
+Activities performed
+Campus User (Student / Staff)
+Log in; search the found-items catalogue; submit lost-item report; correct highlighted fields; review potential-match details; submit ownership claim with proof
+Lost & Found System
+Validate report details; store lost-item report (status OPEN); run matching engine; keep report open and re-check on new found items; record claim and forward to security; mark item RETURNED and generate return record
+Security Personnel
+Verify ownership proof; approve or reject claim; hand over item to the verified owner
+Notification Service
+Send potential-match alert; send claim-rejection notice; send return confirmation
+UML element
+Where it is used in the diagram
+Initial node / Activity final node
+Start of the flow; End (rejected) and End (item returned)
+Flow final node (⊗)
+A single path ends without ending the activity: no match yet, or "not my item"
+Decision nodes with guards
+[listed] / [not listed], [valid] / [invalid], [match found] / [no match], [yes] / [no], [approved] / [rejected]
+Merge node
+Joins the direct-claim path ([listed]) with the match-review path before the claim
+Fork and join bars
+After hand-over, the item status update / return record and the return confirmation run in parallel
+Swimlanes
+Show which actor is responsible for each activity
+Activity Diagram – Campus Lost & Found Management System
+EXPERIMENT - 5
+Aim:  To create a Class Diagram for the Campus Lost & Found Management System
+Prerequisite:
+1.Basic understanding of functionality for the system to be designed
+Outcome: After successful completion of this experiment students will be able to
+1.Identify the various Classes and their association with each other.
+2.Identify the various attributes and functionality of individual classes.
+Theory:
+What is Data modeling?
+Data modeling in software engineering is the process of creating a data model for an information system by applying formal data modeling techniques.
+Data modeling is a process used to define and analyze data requirements needed to support the business processes within the scope of corresponding information systems in organizations. Therefore, the process of data modeling involves professional data modelers working closely with business stakeholders, as well as potential users of the information system.
+There are three different types of data models produced while progressing from requirements to the actual database to be used for the information system. The data requirements are initially recorded as a conceptual data model which is essentially a set of technology independent specifications about the data and is used to discuss initial requirements with the business stakeholders. The conceptual model is then translated into a logical data model, which documents structures of the data that can be implemented in databases. Implementation of one conceptual data model may require multiple logical data models. The last step in data modeling is transforming the logical data model to a physical data model that organizes the data into tables, and accounts for access, performance and storage details. Data modeling defines not just data elements, but also their structures and the relationships between them.
+Data modeling techniques and methodologies are used to model data in a standard, consistent, predictable manner in order to manage it as a resource. The use of data modeling standards is strongly recommended for all projects requiring a standard means of defining and analyzing data within an organization, e.g., using data modeling:
+to assist business analysts, programmers, testers, manual writers, IT package selectors, engineers, managers, related organizations and clients to understand and use an agreed semi-formal model the concepts of the organization and how they relate to one another
+to manage data as a resource
+for the integration of information systems
+for designing databases/data warehouses (aka data repositories)
+Data modeling may be performed during various types of projects and in multiple phases of projects. Data models are progressive; there is no such thing as the final data model for a business or application. Instead a data model should be considered a living document that will change in response to a changing business. The data models should ideally be stored in a repository so that they can be retrieved, expanded, and edited over time. Whitten (2004) determined two types of data modeling:
+Strategic data modeling: This is part of the creation of an information systems strategy, which defines an overall vision and architecture for information systems is defined. Information engineering is a methodology that embraces this approach.
+Data modeling during systems analysis: In systems analysis logical data models are created as part of the development of new databases.
+Data modeling is also used as a technique for detailing business requirements for specific databases. It is sometimes called database modeling because a data model is eventually implemented in a database.
+1)How to identify the Classes for a scenario.
+For a scenario, Classes can be identified using these six class selection characteristics
+a.   Retained information
+i.   Information must be remembered about the system over time
+b.   Needed services
+i.   Set of operations that can change the attributes of a class
+c.   Multiple attributes
+i.   Whereas, a single attribute may denote an atomic variable rather than a class
+d.   Common attributes
+i.   A set of attributes apply to all instances of a class
+e.   Common operations
+i.   A set of operations apply to all instances of a class
+f.   Essential requirements
+i.   Entities that produce or consume information
+2)Guidelines for selecting appropriate classes and deciding their attributes and functions.
+Attributes and operations can be selected using the following steps:
+Attributes of a class are those nouns from the grammatical parse that reasonably belong to a class
+Attributes hold the values that describe the current properties or state of a class
+An attribute may also appear initially as a potential class that is later rejected because of the class selection criteria
+In identifying attributes, the following question should be answered
+What data items (composite and/or elementary) will fully define a specific class in the context of the problem at hand?
+Usually an item is not an attribute if more than one of them is to be associated with a class
+Four categories of operations
+Operations that manipulate data in some way to change the state of an object (e.g., add, delete, modify)
+Operations that perform a computation
+Operations that inquire about the state of an object
+Operations that monitor an object for the occurrence of a controlling event
+An operation has knowledge about the state of a class and the nature of its associations
+The action performed by an operation is based on the current values of the attributes of a class
+Using a grammatical parse again, circle the verbs; then select the verbs that relate to the problem domain classes that were previously identified
+Procedure:
+1)List down the various classes for the system according to the guidelines provided.
+2)Decide the attributes for these Classes and the relationships between them.
+3)Prepare the Class diagram.
+Output:
+Class diagram for the system.
+Step 1: Classes identified (grammatical parse of the problem statement and FR-1 to FR-19)
+Class
+Key attributes
+Key operations
+Selection reason
+User {abstract}
+userId, name, email, passwordHash, phone
+register(), login(), logout(), updateProfile(), resetPassword()
+Retained information; common attributes of all roles
+CampusUser {abstract}
+campusId
+reportLostItem(), reportFoundItem(), searchItems(), submitClaim(), viewHistory()
+Common operations of Student and Staff
+Student / Staff
+rollNo, program, division / employeeId, department, designation
+(inherited)
+Distinct attributes per user type
+SecurityPersonnel
+badgeId, shift
+verifyFoundItem(), manageStorage(), reviewClaim(), approveClaim(), rejectClaim(), markReturned()
+Needed services for verification and custody
+Administrator
+adminLevel
+manageUsers(), manageCategories(), manageItemReports(), manageClaims(), monitorSystem(), generateReport()
+Needed services for administration
+Item {abstract}
+itemId, title, description, colour, location, photoUrl, reportedOn, status
+getDetails(), updateStatus()
+Common attributes of lost and found items
+LostItem / FoundItem
+dateLost, lastSeenAt / dateFound, storageLocation, isVerified
+markRecovered() / verify(), assignStorage()
+Essential requirement; different life cycles
+ItemCategory
+categoryId, name, description
+addCategory(), listItems()
+Multiple attributes; managed by admin
+Match
+matchId, score, matchedOn, status
+confirm(), reject()
+Retained result of matching
+MatchingEngine «control»
+threshold
+findMatches(), calculateScore()
+Performs the matching computation
+Claim
+claimId, proofDescription, claimDate, status, remarks
+submit(), trackStatus(), updateStatus()
+Retained information of ownership requests
+ReturnRecord
+recordId, returnDate, handedOverBy, receiverIdProof
+generateRecord()
+Proof of hand-over (audit)
+Notification
+notificationId, message, channel, sentAt, isRead
+send(), markAsRead()
+Produces / consumes alert information
+ItemStatus, ClaimStatus «enumeration»
+OPEN … CLOSED; PENDING … REJECTED
+–
+Fixed sets of status values
+Step 2: Relationships
+Relationship
+Type
+Multiplicity
+CampusUser, SecurityPersonnel, Administrator → User
+Generalization
+–
+Student, Staff → CampusUser
+Generalization
+–
+LostItem, FoundItem → Item
+Generalization
+–
+User receives Notification
+Association
+1 — 0..*
+CampusUser reports Item
+Association
+1 — 0..*
+CampusUser submits Claim
+Association
+1 — 0..*
+SecurityPersonnel verifies Claim
+Association
+0..1 — 0..*
+Item classified as ItemCategory
+Association
+0..* — 1
+Claim claims FoundItem
+Association
+0..* — 1
+LostItem has Match / Match has FoundItem
+Association
+1 — 0..* / 0..* — 1
+Claim results in ReturnRecord
+Composition (record cannot exist without its claim)
+1 — 0..1
+MatchingEngine creates Match
+Dependency «creates»
+–
+Class Diagram – Campus Lost & Found Management System
+EXPERIMENT- 6
+Aim:  To draw the behavioral view diagram for the Campus Lost & Found Management System: Sequence diagram
+Theory:
+What is Behavioral modeling?
+All behavioural models really do is describe the control structure of a system. This can be things like:
+Sequence of operations
+Object states
+and Object interactions
+Furthermore, this modelling layer can also be called Dynamic Modelling. The activity of creating a behavioural model is commonly known as behavioural modelling. As well as this, a system should also only have one behavioural model – much like functional modelling.
+Two types of behavioral model are:
+• Data processing models that show how data is processed as it moves through the system;
+• State machine models that show the systems response to events.
+• These models show different perspectives so both of them are required to describe the system’s behavior.
+How to draw Sequence diagrams?
+A sequence diagram is a kind of interaction diagram that shows how processes operate with one another and in what order. It is a construct of a Message Sequence Chart. A sequence diagram shows object interactions arranged in time sequence. It depicts the objects and classes involved in the scenario and the sequence of messages exchanged between the objects needed to carry out the functionality of the scenario. Sequence diagrams are typically associated with use case realizations in the Logical View of the system under development. Sequence diagrams are sometimes called event diagrams, event scenarios, and timing diagrams. A sequence diagram shows, as parallel vertical lines (lifelines), different processes or objects that live simultaneously, and, as horizontal arrows, the messages exchanged between them, in the order in which they occur. This allows the specification of simple runtime scenarios in a graphical manner.
+If the lifeline is that of an object, it demonstrates a role. Note that leaving the instance name blank can represent anonymous and unnamed instances.
+Messages, written with horizontal arrows with the message name written above them, display interaction. Solid arrows with full heads are synchronous calls, solid arrows with stick heads are asynchronous messages and dashed arrows with stick heads are return messages. This definition is true as of UML 2, considerably different from UML 1.x. If a caller sends a synchronous message, it must wait until the message is done, such as invoking a subroutine. If a caller sends an asynchronous message, it can continue processing and doesn’t have to wait for a response. You see asynchronous calls in multithreaded applications and in message-oriented middleware. Activation boxes, or method-call boxes, are opaque rectangles drawn on top of lifelines to represent that processes are being performed in response to the message (ExecutionSpecifications in UML).
+Objects calling methods on themselves use messages and add new activation boxes on top of any others to indicate a further level of processing. When an object is destroyed (removed from memory), an X is drawn on top of the lifeline, and the dashed line ceases to be drawn below it (this is not the case in the first example though). It should be the result of a message, either from the object itself, or another.
+Procedure:
+1)Identify various elements such as controller class, objects, boundaries, messages etc. of the sequence diagram.
+2)Draw the sequence diagram as per the guidelines.
+3)Identify various elements needed for a collaboration diagram
+4)Identify the behavior of the systems element with the external interfaces.
+5)Draw the collaboration diagram and State chart diagram as per the guidelines.
+Output:    A Sequence diagram of the system.
+Step 1: Elements of the sequence diagram
+Scenario: A student reports a lost item and later claims a matching found item.
+Lifeline
+Role / corresponding class
+Student
+Actor (Campus User)
+:LostFoundSystem
+Boundary / controller that receives all user requests
+lostItem : LostItem
+Entity object created when the report is stored (class LostItem)
+:MatchingEngine
+Control object (class MatchingEngine) that compares lost and found items
+:Database
+Persistent storage of items, matches, claims and return records
+claim : Claim
+Entity object created when the ownership claim is submitted (class Claim)
+officer : SecurityPersonnel
+Verifies proof of ownership (class SecurityPersonnel)
+:NotificationService
+External service delivering e-mail / SMS / in-app alerts (class Notification)
+record : ReturnRecord
+Entity object created only when the claim is approved (class ReturnRecord)
+Notation
+Used for
+Solid line, filled arrowhead
+Synchronous calls, e.g. 1: login(), 5: storeLostItemReport(), 11: forwardClaimForVerification()
+Solid line, open arrowhead
+Asynchronous messages to and from the Notification Service (7, 7.1, 16, 16.1, 17, 17.1)
+Dashed line, open arrowhead
+Return messages (1.2, 5.1, 6.2, 6.4, 8.1, 12, 15.2) and «create» messages (4, 10, 15)
+Self-message with nested activation
+1.1: authenticate(), 3: validateDetails(), 6.3: calculateScore(), 11.1: reviewClaim(claim)
+alt combined fragment
+[decision = APPROVED]: mark returned, create and store return record, notify; [decision = REJECTED]: send rejection notification
+Sequence Diagram – Student reports a lost item and later claims a matching found item
+EXPERIMENT- 7
+Aim: To draw the behavioral view (Collaboration) diagram for College Lost and Found System
+Prerequisite:
+Basic understanding of functionality for the system to be designed
+Outcome: After successful completion of this experiment students will be able to
+Understand the various model used for identifying behavior of a system to be designed.
+Compare and contrast the various behavioral models.
+Theory:
+What is Behavioral modeling?
+All behavioral models really do is describe the control structure of a system. This can be things like:
+Sequence of operations
+Object states
+and Object interactions
+Furthermore, this modelling layer can also be called Dynamic Modelling. The activity of creating a behavioural model is commonly known as behavioural modelling. As well as this, a system should also only have one behavioural model – much like functional modelling.
+Two types of behavioral model are:
+Data processing models that show how data is processed as it moves through the system;
+State machine models that show the systems response to events.
+These models show different perspectives so both of them are required to describe the system’s behavior.
+How to draw Collaboration diagram?
+Collaboration diagram is used to model how objects involved in a scenario interact, with each object instantiating a particular class in the system. Objects are connected by links, each link
+representing an instance of an association between the respective classes involved. The link shows messages sent between the objects, and the type of message passed (synchronous, asynchronous, simple, balking, and timeout).
+Collaboration diagrams offer a better view of a scenario than a Sequence diagram when the modeler is trying to understand all of the effects on a given object and are therefore good for procedural design.
+Objects
+Objects are depicted on a Collaboration diagram as rectangles. The object name is provided first, with the class name to the right; the two names are separated by a colon. You may specify the multiple occurrence of an object by opening its definition dialog, selecting its Symbol tab, and toggling on the Multiple choice. You may also select the Multiple Object tool from the toolbar.
+Links
+Messages passed between objects are specified within the Link drawn between objects.
+Procedure:
+Identify various elements needed for a collaboration diagram
+Identify the behavior of the systems element with the external interfaces.
+Draw the collaboration diagram as per the guidelines.
+Output: A Collaboration diagram for the system
+Fig 7.1: Collaboration diagram for College Lost and Found System
+Conclusion: Thus, the collaboration diagram for the College Lost and Found System was successfully drawn using StarUML. The diagram shows how the Student, Admin and the system objects (portal, controller, lost item report, found item, database and notification service) are linked and interact through numbered messages to report a lost item, match it with found items, verify the claim and return the item to its owner.
