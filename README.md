@@ -1,5 +1,5 @@
 # 🏫 Campus Lost & Found Management System (CampusFind)
-### SVKM's NMIMS MPSTME — Software Engineering Lab Experiments 1–10 Project
+### SVKM's NMIMS MPSTME — Software Engineering Project
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/crys1ss/Campus-Lost-Found-Management-Web-App)
 [![Vercel Live App](https://img.shields.io/badge/Vercel-Live%20Deployment-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://speedy-jasper-fkvjw32.tmp.now)
