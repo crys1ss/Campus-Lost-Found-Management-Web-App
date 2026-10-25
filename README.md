@@ -33,15 +33,14 @@
 
 ## 📖 Table of Contents
 1. [Project Overview](#-project-overview)
-2. [Visual Application Tour & Screenshots](#-visual-application-tour--screenshots)
-3. [Software Engineering Experiments 1–10 Curriculum Matrix](#-software-engineering-experiments-110-curriculum-matrix)
-4. [Live Demo Credentials & Roles](#-live-demo-credentials--roles)
-5. [Database Architecture & 3NF Normalization](#-database-architecture--3nf-normalization)
-6. [Interactive Lab Simulators (Exp 9 & 10)](#-interactive-lab-simulators-exp-9--10)
-7. [Vercel Deployment Guide](#-vercel-deployment-guide)
-8. [Local Development & Quickstart](#-local-development--quickstart)
-9. [Automated Test Suite & Verification](#-automated-test-suite--verification)
-10. [Repository Directory Structure](#-repository-directory-structure)
+2. [Software Engineering Experiments 1–10 Curriculum Matrix](#-software-engineering-experiments-110-curriculum-matrix)
+3. [Live Demo Credentials & Roles](#-live-demo-credentials--roles)
+4. [Database Architecture & 3NF Normalization](#-database-architecture--3nf-normalization)
+5. [Interactive Lab Simulators (Exp 9 & 10)](#-interactive-lab-simulators-exp-9--10)
+6. [Vercel Deployment Guide](#-vercel-deployment-guide)
+7. [Local Development & Quickstart](#-local-development--quickstart)
+8. [Automated Test Suite & Verification](#-automated-test-suite--verification)
+9. [Repository Directory Structure](#-repository-directory-structure)
 
 ---
 
@@ -53,68 +52,6 @@
 - **Anti-Fraud Privacy Guard:** Public listings obscure confidential identifying marks, serial numbers, and private contents. Claimants must provide verifiable proof before approval.
 - **Security Locker Custody Tracking:** Empowers campus security guards to catalog surrendered items, assign secure physical locker numbers, review claims, and issue serial-numbered return receipts.
 - **Academic UML & Lab Integration:** Directly brings to life the SRS, UML diagrams (Use Case, Activity, Class, Sequence, Collaboration), 3NF schema, SQL TCL transactions, and MongoDB CRUD operations developed across SE Experiments 1 to 10.
-
----
-
-## 📸 Visual Application Tour & Screenshots
-
-### 1. Modern Peach & Cream Landing Page
-Hero section featuring real-time campus statistics, interactive recovery process cards, role quick-access shortcuts, and recently surrendered items.
-![Landing Page](docs/screenshots/01_landing_page.png)
-
----
-
-### 2. Browse Public Catalogue & Fraud Prevention
-Search and filter items by category, location, and status. Demonstrates privacy masking where sensitive identifiers are hidden until official verification.
-![Browse Catalogue](docs/screenshots/02_browse_catalogue.png)
-
----
-
-### 3. Student Lost Item Reporting Form
-Students submit detailed loss reports with brand, color, campus location dropdowns, date pickers, and photographic evidence.
-![Report Lost Item](docs/screenshots/03_report_lost_item.png)
-
----
-
-### 4. Student Self-Service Dashboard
-Live status indicators for reported items, pending claims, and real-time similarity match notifications with 1-click claim filing.
-![Student Dashboard](docs/screenshots/04_student_dashboard.png)
-
----
-
-### 5. Campus Security Custody & Handover Workbench
-Security personnel assign storage lockers, review student ownership proofs against confidential item features, and record verified physical handovers with return receipts.
-![Security Custody Workbench](docs/screenshots/05_security_custody_workbench.png)
-
----
-
-### 6. Administrator System Oversight Console
-Administrative console providing platform-wide KPI telemetry across 9 normalized tables, user management, and audit logs.
-![Admin Oversight Console](docs/screenshots/06_admin_oversight_console.png)
-
----
-
-### 7. Interactive Experiments 1–10 Syllabus Showcase
-Complete interactive hub documenting and demonstrating all 10 Software Engineering laboratory experiments with verified status badges.
-![Experiments Showcase](docs/screenshots/07_experiments_1_to_10_showcase.png)
-
----
-
-### 8. Authentic UML Use Case Diagram (Experiment 3)
-Interactive StarUML model render detailing actors (*Campus User*, *Security Personnel*, *Administrator*), boundary limits, and `<<include>>`/`<<extend>>` associations.
-![UML Use Case Diagram](docs/screenshots/08_exp3_use_case_diagram.png)
-
----
-
-### 9. Experiment 9: Live SQL TCL Transaction Simulator
-Interactive workbench executing real SQL Transaction Control Language commands (`BEGIN TRANSACTION`, `SAVEPOINT sp_handover`, `ROLLBACK TO SAVEPOINT`, `COMMIT`, `ROLLBACK`) directly against the relational database.
-![Experiment 9 TCL Simulator](docs/screenshots/09_exp9_tcl_transaction_simulator.png)
-
----
-
-### 10. Experiment 10: Interactive MongoDB NoSQL CRUD Console
-Real-time NoSQL document store console running BSON queries, document insertions (`insertOne`), projections, and dynamic updates with live JSON state inspection.
-![Experiment 10 MongoDB Console](docs/screenshots/10_exp10_mongodb_crud_console.png)
 
 ---
 
@@ -319,7 +256,6 @@ Campus-Lost-Found-Management-Web-App/
 │   │   └── tests/                 # Automated API test suite
 │   └── tsconfig.json
 ├── docs/                          # SE Lab Experiments 1-10 Documentation & Artifacts
-│   ├── screenshots/               # 10 High-resolution application screenshots
 │   ├── staruml/                   # CampusLostAndFound.mdj (StarUML 6.0 model)
 │   ├── extracted_diagrams/        # Authentic Use Case, Class, Activity, Sequence diagrams
 │   └── all_experiments_detailed.md# Comprehensive 94KB syllabus documentation
