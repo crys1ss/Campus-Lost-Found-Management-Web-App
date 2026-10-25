@@ -8,7 +8,7 @@
     "dev": "node start.js",
     "build": "cd client && npm install && node ./node_modules/vite/bin/vite.js build",
     "build:client": "cd client && node ./node_modules/vite/bin/vite.js build",
-    "test": "node --import tsx --test server/src/tests/api.test.ts",
+    "test": "cd server && node --import tsx --test src/tests/api.test.ts",
     "test:mongo": "node scripts/experiment_10_mongodb_crud.js"
   },
   "dependencies": {
