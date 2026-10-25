@@ -1,0 +1,14 @@
+{
+  "name": "campus-lost-and-found-management-system",
+  "version": "1.0.0",
+  "description": "Campus Lost & Found Management System - NMIMS MPSTME Software Engineering Lab Experiments 1-10",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "node start.js",
+    "test": "node --import tsx --test server/src/tests/api.test.ts",
+    "test:mongo": "node scripts/experiment_10_mongodb_crud.js",
+    "build:client": "cd client && node ./node_modules/vite/bin/vite.js build"
+  },
+  "author": "Tanay Dekate (N022), Jivitesh Dutt (N026), Gatha Jain (N038)",
+  "license": "MIT"
+}
