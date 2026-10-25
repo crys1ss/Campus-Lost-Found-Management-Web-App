@@ -1,0 +1,306 @@
+{
+  "_type": "Project",
+  "_id": "9e1a7b7d18a94f4ead05660c",
+  "name": "Campus Lost and Found Management System - NMIMS MPSTME",
+  "ownedElements": [
+    {
+      "_type": "UMLModel",
+      "_id": "52a5093fccff4e4fad548cc7",
+      "_parent": {
+        "$ref": "9e1a7b7d18a94f4ead05660c"
+      },
+      "name": "Software Engineering Lab Model (Experiments 1-7)",
+      "ownedElements": [
+        {
+          "_type": "UMLUseCaseDiagram",
+          "_id": "2e2ca01a496346e39007582c",
+          "_parent": {
+            "$ref": "52a5093fccff4e4fad548cc7"
+          },
+          "name": "Exp 3 - Use Case Diagram",
+          "ownedViews": []
+        },
+        {
+          "_type": "UMLClassDiagram",
+          "_id": "852ff8f47b934f8ab3345988",
+          "_parent": {
+            "$ref": "52a5093fccff4e4fad548cc7"
+          },
+          "name": "Exp 5 - Class Diagram",
+          "ownedViews": []
+        },
+        {
+          "_type": "UMLActor",
+          "_id": "6497eebb622f4dfb87efa11c",
+          "_parent": {
+            "$ref": "52a5093fccff4e4fad548cc7"
+          },
+          "name": "Campus User"
+        },
+        {
+          "_type": "UMLActor",
+          "_id": "44335d5e05364bfd89bf4e95",
+          "_parent": {
+            "$ref": "52a5093fccff4e4fad548cc7"
+          },
+          "name": "Security Personnel"
+        },
+        {
+          "_type": "UMLActor",
+          "_id": "c23b3804b7b643b787aa5218",
+          "_parent": {
+            "$ref": "52a5093fccff4e4fad548cc7"
+          },
+          "name": "Administrator"
+        },
+        {
+          "_type": "UMLUseCase",
+          "_id": "20847a14e3d948ed90723b7b",
+          "_parent": {
+            "$ref": "52a5093fccff4e4fad548cc7"
+          },
+          "name": "Report Lost Item"
+        },
+        {
+          "_type": "UMLUseCase",
+          "_id": "f304a0a96071430aa40a7cfd",
+          "_parent": {
+            "$ref": "52a5093fccff4e4fad548cc7"
+          },
+          "name": "Report Found Item"
+        },
+        {
+          "_type": "UMLUseCase",
+          "_id": "5e43d6656da640eaa257dfa4",
+          "_parent": {
+            "$ref": "52a5093fccff4e4fad548cc7"
+          },
+          "name": "Search & Filter Items"
+        },
+        {
+          "_type": "UMLUseCase",
+          "_id": "9305a1c27fab4d0793b92dde",
+          "_parent": {
+            "$ref": "52a5093fccff4e4fad548cc7"
+          },
+          "name": "Match Lost & Found Items"
+        },
+        {
+          "_type": "UMLUseCase",
+          "_id": "899517f6217344d698674487",
+          "_parent": {
+            "$ref": "52a5093fccff4e4fad548cc7"
+          },
+          "name": "Submit Ownership Claim"
+        },
+        {
+          "_type": "UMLUseCase",
+          "_id": "afc26f2efde848268c2a88d0",
+          "_parent": {
+            "$ref": "52a5093fccff4e4fad548cc7"
+          },
+          "name": "Verify Claim & Custody"
+        },
+        {
+          "_type": "UMLUseCase",
+          "_id": "cfa9b340d6584d2597baac75",
+          "_parent": {
+            "$ref": "52a5093fccff4e4fad548cc7"
+          },
+          "name": "Process Handover & Return Record"
+        },
+        {
+          "_type": "UMLUseCase",
+          "_id": "9cce150040aa459e828ecd27",
+          "_parent": {
+            "$ref": "52a5093fccff4e4fad548cc7"
+          },
+          "name": "Manage Users & Categories"
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "3489bfeffaea463a9c0b7f3d",
+          "_parent": {
+            "$ref": "52a5093fccff4e4fad548cc7"
+          },
+          "name": "User",
+          "isAbstract": true,
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "f5a0c7bf11ac4a4c8fed16da",
+              "name": "userId",
+              "type": "String"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "d4cd866e1e1742c19427d0f6",
+              "name": "name",
+              "type": "String"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "94122a984bc54e4b9e022f52",
+              "name": "email",
+              "type": "String"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "e9eb835b6f874073b02ca362",
+              "name": "role",
+              "type": "RoleEnum"
+            }
+          ],
+          "operations": [
+            {
+              "_type": "UMLOperation",
+              "_id": "1e2faf66bcee480bb3e7c515",
+              "name": "login"
+            },
+            {
+              "_type": "UMLOperation",
+              "_id": "382c1aff9ac84a92acdb0dae",
+              "name": "logout"
+            }
+          ]
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "d127274bd31b466fb54aaef2",
+          "_parent": {
+            "$ref": "52a5093fccff4e4fad548cc7"
+          },
+          "name": "LostItem",
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "5418a7e3ed4f466995930109",
+              "name": "id",
+              "type": "Integer"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "c3a91cb1913f4f57b3554cc9",
+              "name": "title",
+              "type": "String"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "75549a5ecb9041bc8a85a6b8",
+              "name": "category",
+              "type": "String"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "2ac5341c19124187ac60cdaa",
+              "name": "location",
+              "type": "String"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "18ec6db8f9ae46a2b5996b67",
+              "name": "status",
+              "type": "String"
+            }
+          ]
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "96c0b1c9a3984c348dbea945",
+          "_parent": {
+            "$ref": "52a5093fccff4e4fad548cc7"
+          },
+          "name": "FoundItem",
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "92baeb4b3c634da8b0e36756",
+              "name": "id",
+              "type": "Integer"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "cd4def73e72e46dc92874f6e",
+              "name": "title",
+              "type": "String"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "fdf6cdb22d40486282bb909c",
+              "name": "category",
+              "type": "String"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "75546ca96cdc4d539018cc46",
+              "name": "storageLocation",
+              "type": "String"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "81b31abad87f476d830d3a3a",
+              "name": "status",
+              "type": "String"
+            }
+          ]
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "ed031187064d4b1984df67c4",
+          "_parent": {
+            "$ref": "52a5093fccff4e4fad548cc7"
+          },
+          "name": "Claim",
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "d7f4cc760916408ca295b235",
+              "name": "claimId",
+              "type": "Integer"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "4729015ea56a47bcaff8034e",
+              "name": "proofDescription",
+              "type": "String"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "056531fa017d4d7898ce0aad",
+              "name": "status",
+              "type": "ClaimStatus"
+            }
+          ]
+        },
+        {
+          "_type": "UMLClass",
+          "_id": "2cdc44df148c47c3a125fe05",
+          "_parent": {
+            "$ref": "52a5093fccff4e4fad548cc7"
+          },
+          "name": "ReturnRecord",
+          "attributes": [
+            {
+              "_type": "UMLAttribute",
+              "_id": "11a9c9417ee848849b6222d6",
+              "name": "recordId",
+              "type": "Integer"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "9ffd6f1aca134f0f93744782",
+              "name": "receiptNo",
+              "type": "String"
+            },
+            {
+              "_type": "UMLAttribute",
+              "_id": "6b11d2196af44ed58af418e5",
+              "name": "returnDate",
+              "type": "Date"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
