@@ -2,7 +2,7 @@
 ### SVKM's NMIMS MPSTME — Software Engineering Project
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/crys1ss/Campus-Lost-Found-Management-Web-App)
-[![Vercel Live App](https://img.shields.io/badge/Vercel-Live%20Deployment-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://speedy-jasper-fkvjw32.tmp.now)
+[![Vercel Live App](https://img.shields.io/badge/Vercel-Live%20Deployment-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://campus-lost-found-management-web-ap.vercel.app/)
 [![GitHub Repository](https://img.shields.io/badge/GitHub-crys1ss%2FCampus--Lost--Found-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/crys1ss/Campus-Lost-Found-Management-Web-App)
 
 [![Node.js](https://img.shields.io/badge/Node.js-v24.x-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
@@ -15,8 +15,7 @@
 
 ---
 
-> **Live Demo Web App:** [https://speedy-jasper-fkvjw32.tmp.now](https://speedy-jasper-fkvjw32.tmp.now)  
-> **Claim & Connect Deployment:** [Claim on Vercel Dashboard](https://vercel.com/claim-deployment?code=a9e3d5f4-a5c2-4f2b-9e70-1b4ad966e679)  
+> **Live App Preview:** [https://campus-lost-found-management-web-ap.vercel.app/](https://campus-lost-found-management-web-ap.vercel.app/)  
 > **1-Click Permanent Deploy:** Click the **Deploy with Vercel** button above to fork and deploy directly to your personal Vercel team in under 60 seconds!
 
 ---
@@ -25,16 +24,10 @@
 
 - **Institution:** SVKM's NMIMS Mukesh Patel School of Technology Management & Engineering (MPSTME), Mumbai
 - **Department:** Department of Computer Engineering
-- **Degree:** MBA Tech Computer Engineering (CE) — Division D, Batch D1
+- **Degree:** MBA Tech Computer Engineering (CE) — Division D
 - **Course:** Software Engineering (SE) Laboratory (Experiments 1–10)
 - **Academic Year:** 2025–2026
-
-### Project Team Members:
-| Roll No | Name | SAP ID | Department & Class |
-| :---: | :--- | :---: | :--- |
-| **N022** | **Tanay Dekate** | `70011122001` | MBA Tech CE, Div D |
-| **N026** | **Jivitesh Dutt** | `70011122002` | MBA Tech CE, Div D |
-| **N038** | **Gatha Jain** | `70011122003` | MBA Tech CE, Div D |
+- **Developer & Project Author:** **Tanay Dekate** (Department of Computer Engineering, MBA Tech CE)
 
 ---
 
@@ -146,11 +139,9 @@ Real-time NoSQL document store console running BSON queries, document insertions
 
 During live demonstrations, click the **1-Click Role Switcher** in the top navigation banner to switch roles instantly without typing credentials:
 
-| Role | Name | Email | Password | Academic / Staff Identifier | Access Permissions |
+| Role | Name | Email | Password | Identifier | Access Permissions |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Campus Student** | Tanay Dekate | `tanay@nmims.edu` | `password123` | Roll No: `N022` (MBA Tech CE) | Report lost/found items, view personal dashboard, file claims, receive match notifications. |
-| **Campus Student** | Jivitesh Dutt | `jivitesh@nmims.edu` | `password123` | Roll No: `N026` (MBA Tech CE) | Report lost items, browse public catalogue, claim resolved items. |
-| **Campus Student** | Gatha Jain | `gatha@nmims.edu` | `password123` | Roll No: `N038` (MBA Tech CE) | Report backpacks, review pending items, track campus updates. |
+| **Campus Student** | Tanay Dekate | `tanay@nmims.edu` | `password123` | MBA Tech CE | Report lost/found items, view personal dashboard, file claims, receive match notifications. |
 | **Security Personnel** | Officer Ramesh Shinde | `security@nmims.edu` | `password123` | Staff ID: `SEC-402` (Main Gate) | Surrender intake, locker allocation, ID inspection, handover execution, receipt issuance. |
 | **System Administrator** | Dr. K. Mehta | `admin@nmims.edu` | `password123` | Admin ID: `ADM-001` (IT Cell) | Global telemetry, audit trail inspection, user role management, category policies. |
 
